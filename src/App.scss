@@ -20,6 +20,19 @@ html {
     color: #f00;
   }
 
+  &__status {
+    font-size: 18px;
+    font-weight: bold;
+
+    &--true {
+      color: #080;
+    }
+
+    &--false {
+      color: #f00;
+    }
+  }
+
   &--completed &__title {
     color: #080;
   }
